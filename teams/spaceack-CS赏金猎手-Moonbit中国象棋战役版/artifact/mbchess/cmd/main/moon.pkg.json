@@ -1,0 +1,27 @@
+{
+  "is-main": false,
+  "import": [
+    {
+      "path": "spaceack/mbchess",
+      "alias": "lib"
+    }
+  ],
+  "link": {
+    "wasm": {
+      "exports": [
+        "echoname"
+      ]
+    },
+    "wasm-gc": {
+      "exports": [
+        "echoname"
+      ]
+    }
+  },
+  "export": [
+    "echoname"
+  ],
+  "exports": [
+    "echoname"
+  ]
+}
